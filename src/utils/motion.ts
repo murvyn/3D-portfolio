@@ -25,7 +25,7 @@ type StaggerContainerProps = {
   delayChildren?: number;
 };
 
-export const textVariant = (delay: number) => {
+export const textVariant = (delay?: number) => {
   return {
     hidden: {
       y: -50,
