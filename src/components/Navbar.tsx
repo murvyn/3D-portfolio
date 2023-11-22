@@ -20,7 +20,7 @@ const Navbar = () => {
             window.scroll(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain " />
+          <img src={logo} alt="logo" className="w-9 h-9 object-cover " />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Marvin | &nbsp;
             <span className="sm:block hidden">Asamoah</span>
@@ -43,7 +43,7 @@ const Navbar = () => {
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
-            className="w-[28px] h-[28px] object-contain cursor-pointer"
+            className="w-[28px] h-[28px] object-cover cursor-pointer"
             src={toggle ? close : menu}
             alt="menu"
             onClick={() => setToggle(!toggle)}

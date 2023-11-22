@@ -1,11 +1,11 @@
-type Direction = "left" | "right" | "up" | "down";
-type AnimationType = "spring" | "tween";
+type Direction = "left" | "right" | "up" | "down" | "";
+type AnimationType = "spring" | "tween" | "";
 
 type FadeInProps = {
-  direction: Direction;
-  type: AnimationType;
-  delay: number;
-  duration: number;
+  direction?: Direction;
+  type?: AnimationType;
+  delay?: number;
+  duration?: number;
 };
 
 type ZoomInProps = {
@@ -14,14 +14,14 @@ type ZoomInProps = {
 };
 
 type SlideInProps = {
-  direction: Direction;
-  type: AnimationType;
-  delay: number;
-  duration: number;
+  direction?: Direction;
+  type?: AnimationType;
+  delay?: number;
+  duration?: number;
 };
 
 type StaggerContainerProps = {
-  staggerChildren: number;
+  staggerChildren?: number;
   delayChildren?: number;
 };
 

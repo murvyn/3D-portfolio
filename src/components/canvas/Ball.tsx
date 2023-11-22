@@ -26,6 +26,7 @@ const Ball = ({ icon }: { icon: string }) => {
         <Decal
           rotation={[2 * Math.PI, 0, 6.25]}
           position={[0, 0, 1]}
+          frustumCulled
           map={decal}
         />
       </mesh>

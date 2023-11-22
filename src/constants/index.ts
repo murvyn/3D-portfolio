@@ -24,6 +24,9 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+  import person1 from "../assets/person1.jpg"
+  import person2 from "../assets/person2.jpg"
+  import person3 from "../assets/person3.jpg"
   
   export const navLinks = [
     {
@@ -176,7 +179,7 @@ import {
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: person1,
     },
     {
       testimonial:
@@ -184,7 +187,7 @@ import {
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: person2,
     },
     {
       testimonial:
@@ -192,7 +195,7 @@ import {
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: person3,
     },
   ];
   

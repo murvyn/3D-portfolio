@@ -31,7 +31,7 @@ const ServiceCard = ({ title, icon, index }: Props) => {
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card "
       >
         <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col ">
-          <img src={icon} alt="title" className="w-16 h-16 object-contain" />
+          <img src={icon} alt="title" className="w-16 h-16 object-cover" />
           <h3 className="text-white font-bold text-center text-[20px]">
             {title}
           </h3>
