@@ -2,6 +2,7 @@ import { ComputersCanvas } from ".";
 import { styles } from "../style";
 import {motion} from 'framer-motion'
 
+
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
