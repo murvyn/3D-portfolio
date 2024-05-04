@@ -8,21 +8,20 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    firstLove,
+    qodesh,
+    markdonwEditor,
+    taskify,
+    gameHub,
     threejs,
+    java,
+    python,
+    cplus,
   } from "../assets";
   import person1 from "../assets/person1.jpg"
   import person2 from "../assets/person2.jpg"
@@ -49,7 +48,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -57,7 +56,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Python Developer",
       icon: creator,
     },
   ];
@@ -84,8 +83,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "C++",
+      icon: cplus,
     },
     {
       name: "Tailwind CSS",
@@ -108,68 +107,70 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "python",
+      icon: python,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "React.js Developer, Intern",
+      company_name: "First Love Center",
+      icon: firstLove,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2023 - December 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developed and maintained the website of the church using React and JavaScript and Typescript",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Frontend Developer and Graphic Designer",
+      company_name: "Qodesh Family Church",
+      icon: qodesh,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "March 2021 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Created and updated the website of the church using React and JavaScript",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and produced flyers for the campus church using Adobe Photoshop.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Full Stack Web Developer(Next.js)",
+      company_name: "Poulour",
       icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      iconBg: "#383E56",
+      date: "November 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Built and tested the frontend of a web application for the administration database system using React and JavaScript and Typescript and Next.js.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Integrated APIs and third-party services using Axios and Firebase and mongodb.",
       ],
     },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -201,12 +202,33 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Markdown Editor",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A browser-based Markdown editor, simplifying your writing experience. With intuitive features and real-time previews, crafting Markdown documents has never been easier. Say hello to effortless editing with us!",
       tags: [
         {
           name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "styled-components",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: markdonwEditor,
+      source_code_link: "https://github.com/murvyn/markdown-editor",
+    },
+    {
+      name: "Taskify",
+      description:
+      "Introducing our task management web app! Simplify your productivity with easy task creation, intuitive categorization, and seamless collaboration. Take control of your to-dos effortlessly. Start organizing your tasks now!",
+      tags: [
+        {
+          name: "next.js",
           color: "blue-text-gradient",
         },
         {
@@ -214,54 +236,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "daisyui",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: taskify,
+      source_code_link: "https://github.com/murvyn/taskify",
     },
     {
-      name: "Job IT",
+      name: "Game Hub",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Step into our game hub and unlock a world of fun! Discover a variety of games for every player, from classics to new releases. Join the gaming community and start playing today!",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: gameHub,
+      source_code_link: "https://github.com/murvyn/game-hub",
     },
   ];
   
